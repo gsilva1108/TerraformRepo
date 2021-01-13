@@ -1,7 +1,7 @@
 provider "aws" {
     region = "us-east-1"
-    shared_credentials_file = "/home/gus/.aws/credentials"
-    profile = "pi_user"
+    access_key = "AKIA2GAAIISJXKXIH4PF"
+    secret_key = "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"
 }
 
 variable "user_name" {
