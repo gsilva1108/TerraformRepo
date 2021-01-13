@@ -14,7 +14,7 @@ resource "aws_iam_user_policy" "user_policy" {
     user = aws_iam_user.user.name
     policy = <<EOF
 {
-    "Version": "2012-10-17"
+    "Version": "2012-10-17",
     "Statement": [
         {
             "Action": [
